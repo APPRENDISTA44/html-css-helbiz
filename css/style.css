@@ -1,0 +1,39 @@
+/*nuova larghezza massima*/
+.container{
+  max-width: 1440px;
+}
+/*reset liste*/
+ul{
+  list-style-type: none;
+}
+/*header*/
+header nav{
+  padding: 16px;
+}
+/*parte sinistra*/
+header nav .logo{
+  line-height: 28px;
+}
+header nav img{
+  height: 12.2px;
+  vertical-align: middle;
+}
+/*parte destra*/
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+header nav li{
+  display: inline-block;
+  font-size: .700em;
+  padding: 8px 14px;
+}
+header nav .link{
+  text-align: right;
+}
+header nav .lang li{
+  border-right: 1px solid black;
+}
+header nav .lang li:last-child{
+  border-right: none;
+}
