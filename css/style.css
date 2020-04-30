@@ -2,11 +2,15 @@
 .container{
   max-width: 1440px;
 }
+
 /*reset liste*/
 ul{
   list-style-type: none;
 }
+
 /*header*/
+
+/* menu */
 header nav{
   padding: 16px;
 }
@@ -37,3 +41,18 @@ header nav .lang li{
 header nav .lang li:last-child{
   border-right: none;
 }
+/*burger menu*/
+header nav .link span{
+display: none;
+}
+@media all and (max-width: 991px){
+  header nav .link li{
+    display: none;
+  }
+  header nav .link span{
+    display: inline-block;
+    font-size: 2em;
+  }
+}
+
+/*titolo*/
