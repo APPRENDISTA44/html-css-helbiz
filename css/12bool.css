@@ -45,7 +45,7 @@
 /*colonne e offset*/
 
 /*XS*/
-@media all and (max-width: 768px){
+@media all and (max-width: 767px){
 
   /*colonne*/
   .col-xs-1{
@@ -126,7 +126,7 @@
   }
 }
 /*MD*/
-@media all and (min-width: 768px) and (max-width: 992px) {
+@media all and (min-width: 768px) and (max-width: 991px) {
 
   /*colonne*/
   .col-md-1{
