@@ -56,3 +56,48 @@ display: none;
 }
 
 /*titolo*/
+/*adatto titolo a grandezza schermo*/
+@media all and (max-width: 991px){
+  header #titolo{
+    height: 410px;
+  }
+  header #titolo .text h1{
+    font-size: 1.875em;
+  }
+}
+
+@media all and (min-width: 991px){
+  header #titolo{
+    height: 630px;
+  }
+  header #titolo .text h1{
+    font-size: 3.125em;
+  }
+}
+
+header #titolo{
+  position: relative;
+  background-image: url(../img/title.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+header #titolo .text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header #titolo .text li{
+  display: inline-block;
+  margin: 0 8px;
+}
+header #titolo .text h1{
+  margin-bottom: 8px;
+}
+header #titolo .text p{
+  margin-bottom: 16px;
+  font-size: .9375em;
+}
