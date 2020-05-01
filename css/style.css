@@ -113,9 +113,11 @@ main #vehicles a{
   color: blue;
   display:block;
 }
-main #vehicles .left,
+main #vehicles .left{
+  padding: 48px 15px 48px 0px;
+}
 main #vehicles .right{
-  padding: 48px 15px;
+  padding: 48px 0 48px 15px;
 }
 main #vehicles .left .go,
 main #vehicles .right .bike{
@@ -145,9 +147,16 @@ main #vehicles a{
   main #vehicles .right .bike img{
     width:330px;
   }
+  main #vehicles .left,
+  main #vehicles .right{
+    padding: 48px 15px;
+  }
 }
 @media all and (max-width: 767px){
   main #vehicles .left,
+  main #vehicles .right{
+    padding: 10px 5px;
+  }
   main #vehicles .right{
     padding: 10px 5px;
   }
@@ -178,7 +187,7 @@ main #center .banner {
   position: relative;
 }
 main #center .container{
-  position: relative;
+  margin-bottom: 50px;
 }
 main #center h2{
   font-size: 36px;
@@ -187,10 +196,10 @@ main #center h4{
   font-size: 18px;
   padding: 15px 0;
 }
-main #center .phone {
+main #center .banner .phone {
   text-align: center;
 }
-main #center .phone img{
+main #center .banner .phone img{
   height: 700px;
   position: absolute;
   top: 50%;
@@ -202,10 +211,70 @@ main #center .phone img{
   main #center .container .left {
     padding-top: 50px;
   }
-  main #center .phone img{
-    height:500px;
-  }
   main #center .banner{
     height:450px;
   }
+  main #center .banner .phone img{
+    height:500px;
+  }
+}
+
+/*blocchi info*/
+main #info{
+  padding-top: 40px;
+  color: white;
+  text-align: center;
+}
+main #info a{
+  text-decoration: none;
+  color: white;
+}
+/* blocco smart */
+main #info .container:first-child{
+  height: 500px;
+  background-image: url(../img/scooter-helbiz.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 40px
+}
+main #info .smart .text{
+padding-top: 100px;
+}
+main #info .smart .text h2{
+  font-size: 48px;
+}
+main #info .smart .text p,
+main #info .smart .text a{
+  font-size: 21px;
+}
+main #info .smart .text p{
+  margin: 32px 0 16px;
+}
+@media all and (max-width: 991px){
+  main #info .container{
+    height: 460px;
+  }
+  main #info .smart .text{
+  padding-top: 50px;
+  }
+  main #info .smart .text h2{
+    font-size: 30px;
+  }
+  main #info .smart .text p,
+  main #info .smart .text a{
+    font-size: 17px;
+  }
+  main #info .smart .text p{
+    margin: 28px 0 12px;
+  }
+}
+/* blocchi get the app e find us */
+main #info .container .left,
+main #info .container .right
+{
+  padding: 0 15px;
+}
+main #info .container .app{
+  height: 600px;
+  background-color: #3b4d60;
 }
