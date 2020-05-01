@@ -167,3 +167,45 @@ main #vehicles a{
     font-size: 18px;
   }
 }
+
+/*blocco centrale*/
+main #center .banner {
+  background-image: url(../img/helbiz-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:500px;
+  margin-bottom: 100px;
+  position: relative;
+}
+main #center .container{
+  position: relative;
+}
+main #center h2{
+  font-size: 36px;
+}
+main #center h4{
+  font-size: 18px;
+  padding: 15px 0;
+}
+main #center .phone {
+  text-align: center;
+}
+main #center .phone img{
+  height: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+/*do un padding superiore al container da 991 in giu e aggiusto dimensioni*/
+@media all and (max-width: 991px){
+  main #center .container .left {
+    padding-top: 50px;
+  }
+  main #center .phone img{
+    height:500px;
+  }
+  main #center .banner{
+    height:450px;
+  }
+}
