@@ -358,3 +358,55 @@ main .family .social li {
 }
 
 /*footer*/
+footer{
+  background-color: black;
+  padding: 100px 0;
+}
+/*parte alta*/
+footer .up li:first-child{
+    padding: 0 20px 16px;
+}
+footer .up li{
+    padding: 4.5px 20px;
+}
+footer a{
+  text-decoration: none;
+  color: #696969;
+  font-size: 15px;
+}
+footer h4{
+  color: white;
+  font-size: 16px;
+}
+/*parte bassa*/
+footer .down hr:first-child{
+  margin: 96px 0 32px;
+  border-width: 0.1px
+}
+footer .down li{
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 20px;
+}
+footer .down,
+footer .down a
+{
+  color: white;
+}
+footer .down .left,
+footer .down .middle,
+footer .down .right
+{
+  padding-left: 20px;
+}
+footer .down hr{
+  margin-top: 32px;
+  margin-bottom: 28px;
+  border-width: 0.1px
+}
+footer .app{
+  text-align: center;
+}
+footer .app img:first-child{
+  margin-right: 15px;
+}
