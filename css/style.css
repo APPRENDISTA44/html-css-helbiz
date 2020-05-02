@@ -410,3 +410,20 @@ footer .app{
 footer .app img:first-child{
   margin-right: 15px;
 }
+@media all and (max-width: 991px){
+  footer .up li{
+      padding: 4.5px 0;
+  }
+  footer .up li:first-child{
+      padding: 16px 0;
+  }
+  footer .down .left,
+  footer .down .middle,
+  footer .down .right
+  {
+    padding: 15px 0;
+  }
+  footer .down hr:first-child{
+    margin: 64px 0 32px;
+  }
+}
