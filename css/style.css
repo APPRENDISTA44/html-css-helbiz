@@ -255,9 +255,6 @@ main #info .text p{
   main #info .container:first-child{
     margin: 0;
   }
-  main #info .container{
-    height: 460px;
-  }
   main #info .smart .text{
   padding-top: 50px;
   }
