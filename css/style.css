@@ -248,6 +248,13 @@ main #info .text p{
   margin-bottom: 18px;
 }
 @media all and (max-width: 991px){
+  main #info{
+    padding-top:0;
+  }
+
+  main #info .container:first-child{
+    margin: 0;
+  }
   main #info .container{
     height: 460px;
   }
